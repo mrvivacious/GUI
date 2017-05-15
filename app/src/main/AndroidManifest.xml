@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.gui">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/illinois_fighting_illini"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/illinois_fighting_illini"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IllActivity"></activity>
+    </application>
+
+</manifest>
